@@ -1,0 +1,12 @@
+ real:
+  adapter: mysql
+  host: localhost
+  database: testphp
+  username: test
+  password: pass
+ test:
+  adapter: mysql
+  host: localhost
+  database: testphp
+  username: test_name
+  password: test_pass
