@@ -12,3 +12,12 @@ for n in 1...9 {
     print (3 * n)
 }
 
+import Foundation
+// 9x9 tables.
+for x in 1...9 {
+    var rows = ""
+    for y in 1...9{
+        rows = rows + String(format:"%3d", x * y)
+    }
+    print(rows)
+}
