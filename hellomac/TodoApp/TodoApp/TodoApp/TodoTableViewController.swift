@@ -16,17 +16,17 @@ class TodoTableViewController : UIViewController, UITableViewDataSource{
         
         let header = UIImageView(frame: CGRect(x: 0, y: 0, width: 320, height: 64))
         header.image = UIImage(named: "header")
+
+        let title = UILabel(frame: CGRect(x:10, y:20, width:310, height:40))
+        title.text = "ToDo List"
+        header.addSubview(title)
         
         let screenWidth = UIScreen.mainScreen().bounds.size.height
         self.tableView = UITableView(frame: CGRect(x:0, y:60, width:310, height:screenWidth - 60))
         self.tableView!.dataSource = self
-        
         self.view.addSubview(self.tableView!)
+        
         self.view.addSubview(header)
-
-        let title = UILabel(frame: CGRect(x:10, y:20, width:310, height:40))
-        title.text = "ToDo List"
-        self.view.addSubview(title)
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
