@@ -17,10 +17,17 @@ class TodoTableViewController : UIViewController{
         
         let header = UIImageView(frame: CGRect(x: 0, y: 0, width: 320, height: 64))
         header.image = UIImage(named: "header")
+        header.userInteractionEnabled = true
 
         let title = UILabel(frame: CGRect(x:10, y:20, width:310, height:40))
         title.text = "ToDo List"
         header.addSubview(title)
+        
+        let button = UIButton(type: .System)
+        button.frame = CGRect(x: 320 - 50, y: 20, width: 50, height: 44)
+        button.setTitle("Add", forState: .Normal)
+        button.addTarget(self, action: "showCreateView", forControlEvents: .TouchUpInside)
+        header.addSubview(button)
         
         let screenWidth = UIScreen.mainScreen().bounds.size.height
         self.tableView = UITableView(frame: CGRect(x:0, y:60, width:310, height:screenWidth - 60))
