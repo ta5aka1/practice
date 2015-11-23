@@ -8,7 +8,8 @@
 
 import UIKit
 
-class TodoTableViewController : UIViewController, UITableViewDataSource{
+class TodoTableViewController : UIViewController{
+    var todo = TodoDataManager.sharedInstance
     var tableView: UITableView?
     
     override func viewDidLoad() {
@@ -28,14 +29,21 @@ class TodoTableViewController : UIViewController, UITableViewDataSource{
         
         self.view.addSubview(header)
     }
+
+}
+
+extension TodoTableViewController : UITableViewDataSource {
     
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) ->Int {
+        return self.todo.size
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let row = indexPath.row
+        
         let cell = UITableViewCell(style: .Default, reuseIdentifier: nil)
-        cell.textLabel!.text = "todo"
+        cell.textLabel?.text = self.todo[row].title
+        
         return cell
     }
 }
