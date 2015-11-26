@@ -12,11 +12,29 @@
 
 @end
 
-@implementation ViewController
+@implementation ViewController {
+    int kazu;
+    NSString *kazutext;
+    IBOutlet UILabel *kazulabel;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    kazu = 0;
+}
+
+- (IBAction)plusup:(id)sender {
+    kazu++;
+    kazutext = [NSString stringWithFormat:@"%d", kazu];
+    [kazulabel setText:kazutext];
+}
+
+- (IBAction)mainusdown :(id)sender {
+    if( kazu > 0){
+        kazu--;
+    }
+    kazutext = [NSString stringWithFormat:@"%d", kazu];
+    [kazulabel setText:kazutext];
 }
 
 - (void)didReceiveMemoryWarning {
