@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController , UICollectionViewDataSource{
     var collectionView:UICollectionView!
+    let flowLayout = UICollectionViewFlowLayout()
+    let imageItems = ["arrow73.png", "clock96.png", "close13.png", "email20.png", "garbage12.png", "handshake1.png"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +27,8 @@ class ViewController: UIViewController , UICollectionViewDataSource{
         
         //コレクションビュー作成
         collectionView = UICollectionView(frame: view.frame, collectionViewLayout: flowLayout)
-        collectionView.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
+        collectionView.registerClass(ImageCollectionViewCell.self, forCellWithReuseIdentifier: "ImageCell")
+        //collectionView.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
         collectionView.registerClass(UICollectionReusableView.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: "header")
         collectionView.dataSource = self
         view.addSubview(collectionView)
@@ -54,13 +57,38 @@ class ViewController: UIViewController , UICollectionViewDataSource{
         // Dispose of any resources that can be recreated.
     }
     
+    override func shouldAutorotate() -> Bool {
+        return true
+    }
+    
+    //すべての回転方向を認識させる
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.All
+    }
+    
+    override func willAnimateRotationToInterfaceOrientation(toInterfaceOrientation: UIInterfaceOrientation, duration: NSTimeInterval) {
+        //画面回転したらCollectionViewのスクロール方向を変更する
+        //処理が行われたかわかりづらいので、collectionViewの背景色を画面方向によって変更。
+        if toInterfaceOrientation == .Portrait || toInterfaceOrientation == .PortraitUpsideDown{
+            flowLayout.scrollDirection = .Vertical
+            collectionView.backgroundColor = UIColor.blackColor()
+        } else if toInterfaceOrientation == .LandscapeLeft || toInterfaceOrientation == .LandscapeRight {
+            flowLayout.scrollDirection = .Horizontal
+            collectionView.backgroundColor = UIColor.whiteColor()
+        }else{
+            //画面回転方向がunknownの時は縦にスクロール
+            flowLayout.scrollDirection = .Vertical
+            collectionView.backgroundColor = UIColor.blackColor()
+        }
+    }
+    
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 100
+        return imageItems.count
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell{
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as UICollectionViewCell
-        cell.backgroundColor = UIColor.redColor()
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("ImageCell", forIndexPath: indexPath) as! ImageCollectionViewCell
+        cell.setupContents(indexPath.row, filePath: imageItems[indexPath.row])
         return cell
     }
     
