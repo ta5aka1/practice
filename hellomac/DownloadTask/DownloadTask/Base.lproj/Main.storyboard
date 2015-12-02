@@ -14,26 +14,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="luy-Nx-5hQ">
-                                <rect key="frame" x="40" y="84" width="240" height="128"/>
+                                <rect key="frame" x="6" y="25" width="308" height="253"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BK8-cS-Uqs">
-                                <rect key="frame" x="115" y="269" width="90" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <state key="normal" title="ダウンロード"/>
-                                <connections>
-                                    <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TFK-wM-2vx"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4IJ-fI-kzc">
-                                <rect key="frame" x="145" y="318" width="30" height="30"/>
+                                <rect key="frame" x="145" y="335" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="表示"/>
                                 <connections>
                                     <action selector="showImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UgJ-OO-oMq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BK8-cS-Uqs">
+                                <rect key="frame" x="115" y="297" width="90" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="ダウンロード"/>
+                                <connections>
+                                    <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TFK-wM-2vx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -43,12 +43,11 @@
                     <connections>
                         <outlet property="imageView" destination="luy-Nx-5hQ" id="Peb-cG-j5p"/>
                         <outlet property="showBtn" destination="4IJ-fI-kzc" id="wmI-3g-URg"/>
-                        <outlet property="startBtn" destination="BK8-cS-Uqs" id="g6e-tX-LV9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="130.66666666666666" y="289.20666666666665"/>
+            <point key="canvasLocation" x="130" y="289"/>
         </scene>
     </scenes>
 </document>
