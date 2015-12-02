@@ -19,12 +19,21 @@
                                 <animations/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BK8-cS-Uqs">
-                                <rect key="frame" x="130" y="269" width="60" height="30"/>
+                                <rect key="frame" x="115" y="269" width="90" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <state key="normal" title="通信開始"/>
+                                <state key="normal" title="ダウンロード"/>
                                 <connections>
                                     <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TFK-wM-2vx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4IJ-fI-kzc">
+                                <rect key="frame" x="145" y="318" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="表示"/>
+                                <connections>
+                                    <action selector="showImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UgJ-OO-oMq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -33,6 +42,8 @@
                     </view>
                     <connections>
                         <outlet property="imageView" destination="luy-Nx-5hQ" id="Peb-cG-j5p"/>
+                        <outlet property="showBtn" destination="4IJ-fI-kzc" id="wmI-3g-URg"/>
+                        <outlet property="startBtn" destination="BK8-cS-Uqs" id="g6e-tX-LV9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
