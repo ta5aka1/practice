@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F94815E11C109CF10027B227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94815E01C109CF10027B227 /* AppDelegate.swift */; };
+		F94815E31C109CF10027B227 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94815E21C109CF10027B227 /* ViewController.swift */; };
+		F94815E61C109CF10027B227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94815E41C109CF10027B227 /* Main.storyboard */; };
+		F94815E81C109CF10027B227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94815E71C109CF10027B227 /* Assets.xcassets */; };
+		F94815EB1C109CF10027B227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94815E91C109CF10027B227 /* LaunchScreen.storyboard */; };
+		F94815F61C109CF10027B227 /* LongTapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94815F51C109CF10027B227 /* LongTapTests.swift */; };
+		F94816011C109CF20027B227 /* LongTapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94816001C109CF20027B227 /* LongTapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F94815F21C109CF10027B227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F94815D51C109CF10027B227 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F94815DC1C109CF10027B227;
+			remoteInfo = LongTap;
+		};
+		F94815FD1C109CF20027B227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F94815D51C109CF10027B227 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F94815DC1C109CF10027B227;
+			remoteInfo = LongTap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F94815DD1C109CF10027B227 /* LongTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F94815E01C109CF10027B227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F94815E21C109CF10027B227 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F94815E51C109CF10027B227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F94815E71C109CF10027B227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F94815EA1C109CF10027B227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F94815EC1C109CF10027B227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F94815F11C109CF10027B227 /* LongTapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongTapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F94815F51C109CF10027B227 /* LongTapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTapTests.swift; sourceTree = "<group>"; };
+		F94815F71C109CF10027B227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F94815FC1C109CF20027B227 /* LongTapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongTapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F94816001C109CF20027B227 /* LongTapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTapUITests.swift; sourceTree = "<group>"; };
+		F94816021C109CF20027B227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F94815DA1C109CF10027B227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F94815EE1C109CF10027B227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F94815F91C109CF20027B227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F94815D41C109CF10027B227 = {
+			isa = PBXGroup;
+			children = (
+				F94815DF1C109CF10027B227 /* LongTap */,
+				F94815F41C109CF10027B227 /* LongTapTests */,
+				F94815FF1C109CF20027B227 /* LongTapUITests */,
+				F94815DE1C109CF10027B227 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F94815DE1C109CF10027B227 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F94815DD1C109CF10027B227 /* LongTap.app */,
+				F94815F11C109CF10027B227 /* LongTapTests.xctest */,
+				F94815FC1C109CF20027B227 /* LongTapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F94815DF1C109CF10027B227 /* LongTap */ = {
+			isa = PBXGroup;
+			children = (
+				F94815E01C109CF10027B227 /* AppDelegate.swift */,
+				F94815E21C109CF10027B227 /* ViewController.swift */,
+				F94815E41C109CF10027B227 /* Main.storyboard */,
+				F94815E71C109CF10027B227 /* Assets.xcassets */,
+				F94815E91C109CF10027B227 /* LaunchScreen.storyboard */,
+				F94815EC1C109CF10027B227 /* Info.plist */,
+			);
+			path = LongTap;
+			sourceTree = "<group>";
+		};
+		F94815F41C109CF10027B227 /* LongTapTests */ = {
+			isa = PBXGroup;
+			children = (
+				F94815F51C109CF10027B227 /* LongTapTests.swift */,
+				F94815F71C109CF10027B227 /* Info.plist */,
+			);
+			path = LongTapTests;
+			sourceTree = "<group>";
+		};
+		F94815FF1C109CF20027B227 /* LongTapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F94816001C109CF20027B227 /* LongTapUITests.swift */,
+				F94816021C109CF20027B227 /* Info.plist */,
+			);
+			path = LongTapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F94815DC1C109CF10027B227 /* LongTap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F94816051C109CF20027B227 /* Build configuration list for PBXNativeTarget "LongTap" */;
+			buildPhases = (
+				F94815D91C109CF10027B227 /* Sources */,
+				F94815DA1C109CF10027B227 /* Frameworks */,
+				F94815DB1C109CF10027B227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LongTap;
+			productName = LongTap;
+			productReference = F94815DD1C109CF10027B227 /* LongTap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F94815F01C109CF10027B227 /* LongTapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F94816081C109CF20027B227 /* Build configuration list for PBXNativeTarget "LongTapTests" */;
+			buildPhases = (
+				F94815ED1C109CF10027B227 /* Sources */,
+				F94815EE1C109CF10027B227 /* Frameworks */,
+				F94815EF1C109CF10027B227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F94815F31C109CF10027B227 /* PBXTargetDependency */,
+			);
+			name = LongTapTests;
+			productName = LongTapTests;
+			productReference = F94815F11C109CF10027B227 /* LongTapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F94815FB1C109CF20027B227 /* LongTapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F948160B1C109CF20027B227 /* Build configuration list for PBXNativeTarget "LongTapUITests" */;
+			buildPhases = (
+				F94815F81C109CF20027B227 /* Sources */,
+				F94815F91C109CF20027B227 /* Frameworks */,
+				F94815FA1C109CF20027B227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F94815FE1C109CF20027B227 /* PBXTargetDependency */,
+			);
+			name = LongTapUITests;
+			productName = LongTapUITests;
+			productReference = F94815FC1C109CF20027B227 /* LongTapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F94815D51C109CF10027B227 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Takayasu Sakai";
+				TargetAttributes = {
+					F94815DC1C109CF10027B227 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					F94815F01C109CF10027B227 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F94815DC1C109CF10027B227;
+					};
+					F94815FB1C109CF20027B227 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F94815DC1C109CF10027B227;
+					};
+				};
+			};
+			buildConfigurationList = F94815D81C109CF10027B227 /* Build configuration list for PBXProject "LongTap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F94815D41C109CF10027B227;
+			productRefGroup = F94815DE1C109CF10027B227 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F94815DC1C109CF10027B227 /* LongTap */,
+				F94815F01C109CF10027B227 /* LongTapTests */,
+				F94815FB1C109CF20027B227 /* LongTapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F94815DB1C109CF10027B227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94815EB1C109CF10027B227 /* LaunchScreen.storyboard in Resources */,
+				F94815E81C109CF10027B227 /* Assets.xcassets in Resources */,
+				F94815E61C109CF10027B227 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F94815EF1C109CF10027B227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F94815FA1C109CF20027B227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F94815D91C109CF10027B227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94815E31C109CF10027B227 /* ViewController.swift in Sources */,
+				F94815E11C109CF10027B227 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F94815ED1C109CF10027B227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94815F61C109CF10027B227 /* LongTapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F94815F81C109CF20027B227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94816011C109CF20027B227 /* LongTapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F94815F31C109CF10027B227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F94815DC1C109CF10027B227 /* LongTap */;
+			targetProxy = F94815F21C109CF10027B227 /* PBXContainerItemProxy */;
+		};
+		F94815FE1C109CF20027B227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F94815DC1C109CF10027B227 /* LongTap */;
+			targetProxy = F94815FD1C109CF20027B227 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F94815E41C109CF10027B227 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F94815E51C109CF10027B227 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F94815E91C109CF10027B227 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F94815EA1C109CF10027B227 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F94816031C109CF20027B227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F94816041C109CF20027B227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F94816061C109CF20027B227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LongTap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tasakai.LongTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F94816071C109CF20027B227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LongTap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tasakai.LongTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F94816091C109CF20027B227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LongTapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tasakai.LongTapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LongTap.app/LongTap";
+			};
+			name = Debug;
+		};
+		F948160A1C109CF20027B227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LongTapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tasakai.LongTapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LongTap.app/LongTap";
+			};
+			name = Release;
+		};
+		F948160C1C109CF20027B227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LongTapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tasakai.LongTapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LongTap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F948160D1C109CF20027B227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LongTapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tasakai.LongTapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LongTap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F94815D81C109CF10027B227 /* Build configuration list for PBXProject "LongTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F94816031C109CF20027B227 /* Debug */,
+				F94816041C109CF20027B227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F94816051C109CF20027B227 /* Build configuration list for PBXNativeTarget "LongTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F94816061C109CF20027B227 /* Debug */,
+				F94816071C109CF20027B227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F94816081C109CF20027B227 /* Build configuration list for PBXNativeTarget "LongTapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F94816091C109CF20027B227 /* Debug */,
+				F948160A1C109CF20027B227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F948160B1C109CF20027B227 /* Build configuration list for PBXNativeTarget "LongTapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F948160C1C109CF20027B227 /* Debug */,
+				F948160D1C109CF20027B227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F94815D51C109CF10027B227 /* Project object */;
+}
