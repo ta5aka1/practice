@@ -14,6 +14,7 @@
 		F9CA02D41C130FB0000C77A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9CA02D21C130FB0000C77A1 /* LaunchScreen.storyboard */; };
 		F9CA02DF1C130FB0000C77A1 /* PinchInOutAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA02DE1C130FB0000C77A1 /* PinchInOutAppTests.swift */; };
 		F9CA02EA1C130FB0000C77A1 /* PinchInOutAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA02E91C130FB0000C77A1 /* PinchInOutAppUITests.swift */; };
+		F9CA02F81C130FEC000C77A1 /* GestureUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA02F71C130FEC000C77A1 /* GestureUIImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F9CA02E51C130FB0000C77A1 /* PinchInOutAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchInOutAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9CA02E91C130FB0000C77A1 /* PinchInOutAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchInOutAppUITests.swift; sourceTree = "<group>"; };
 		F9CA02EB1C130FB0000C77A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9CA02F71C130FEC000C77A1 /* GestureUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureUIImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				F9CA02D01C130FB0000C77A1 /* Assets.xcassets */,
 				F9CA02D21C130FB0000C77A1 /* LaunchScreen.storyboard */,
 				F9CA02D51C130FB0000C77A1 /* Info.plist */,
+				F9CA02F71C130FEC000C77A1 /* GestureUIImageView.swift */,
 			);
 			path = PinchInOutApp;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9CA02F81C130FEC000C77A1 /* GestureUIImageView.swift in Sources */,
 				F9CA02CC1C130FB0000C77A1 /* ViewController.swift in Sources */,
 				F9CA02CA1C130FB0000C77A1 /* AppDelegate.swift in Sources */,
 			);
