@@ -15,6 +15,8 @@
 		F9CA02DF1C130FB0000C77A1 /* PinchInOutAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA02DE1C130FB0000C77A1 /* PinchInOutAppTests.swift */; };
 		F9CA02EA1C130FB0000C77A1 /* PinchInOutAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA02E91C130FB0000C77A1 /* PinchInOutAppUITests.swift */; };
 		F9CA02F81C130FEC000C77A1 /* GestureUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA02F71C130FEC000C77A1 /* GestureUIImageView.swift */; };
+		F9CA02FA1C13DE9D000C77A1 /* macau.png in Resources */ = {isa = PBXBuildFile; fileRef = F9CA02F91C13DE9D000C77A1 /* macau.png */; };
+		F9CA02FC1C13E4FB000C77A1 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA02FB1C13E4FB000C77A1 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F9CA02E91C130FB0000C77A1 /* PinchInOutAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchInOutAppUITests.swift; sourceTree = "<group>"; };
 		F9CA02EB1C130FB0000C77A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9CA02F71C130FEC000C77A1 /* GestureUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureUIImageView.swift; sourceTree = "<group>"; };
+		F9CA02F91C13DE9D000C77A1 /* macau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = macau.png; path = ../../../../../Downloads/macau.png; sourceTree = "<group>"; };
+		F9CA02FB1C13E4FB000C77A1 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		F9CA02C81C130FB0000C77A1 /* PinchInOutApp */ = {
 			isa = PBXGroup;
 			children = (
+				F9CA02F91C13DE9D000C77A1 /* macau.png */,
 				F9CA02C91C130FB0000C77A1 /* AppDelegate.swift */,
 				F9CA02CB1C130FB0000C77A1 /* ViewController.swift */,
 				F9CA02CD1C130FB0000C77A1 /* Main.storyboard */,
@@ -106,6 +111,7 @@
 				F9CA02D21C130FB0000C77A1 /* LaunchScreen.storyboard */,
 				F9CA02D51C130FB0000C77A1 /* Info.plist */,
 				F9CA02F71C130FEC000C77A1 /* GestureUIImageView.swift */,
+				F9CA02FB1C13E4FB000C77A1 /* ImageViewController.swift */,
 			);
 			path = PinchInOutApp;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 				F9CA02D41C130FB0000C77A1 /* LaunchScreen.storyboard in Resources */,
 				F9CA02D11C130FB0000C77A1 /* Assets.xcassets in Resources */,
 				F9CA02CF1C130FB0000C77A1 /* Main.storyboard in Resources */,
+				F9CA02FA1C13DE9D000C77A1 /* macau.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +268,7 @@
 			files = (
 				F9CA02F81C130FEC000C77A1 /* GestureUIImageView.swift in Sources */,
 				F9CA02CC1C130FB0000C77A1 /* ViewController.swift in Sources */,
+				F9CA02FC1C13E4FB000C77A1 /* ImageViewController.swift in Sources */,
 				F9CA02CA1C130FB0000C77A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
