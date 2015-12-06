@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9CA030A1C14855D000C77A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA03091C14855D000C77A1 /* AppDelegate.swift */; };
+		F9CA030C1C14855D000C77A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA030B1C14855D000C77A1 /* ViewController.swift */; };
+		F9CA030F1C14855D000C77A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9CA030D1C14855D000C77A1 /* Main.storyboard */; };
+		F9CA03111C14855D000C77A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9CA03101C14855D000C77A1 /* Assets.xcassets */; };
+		F9CA03141C14855D000C77A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9CA03121C14855D000C77A1 /* LaunchScreen.storyboard */; };
+		F9CA031F1C14855D000C77A1 /* textPaddingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA031E1C14855D000C77A1 /* textPaddingAppTests.swift */; };
+		F9CA032A1C14855D000C77A1 /* textPaddingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CA03291C14855D000C77A1 /* textPaddingAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9CA031B1C14855D000C77A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9CA02FE1C14855D000C77A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9CA03051C14855D000C77A1;
+			remoteInfo = textPaddingApp;
+		};
+		F9CA03261C14855D000C77A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9CA02FE1C14855D000C77A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9CA03051C14855D000C77A1;
+			remoteInfo = textPaddingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9CA03061C14855D000C77A1 /* textPaddingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textPaddingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9CA03091C14855D000C77A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9CA030B1C14855D000C77A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9CA030E1C14855D000C77A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9CA03101C14855D000C77A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9CA03131C14855D000C77A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9CA03151C14855D000C77A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9CA031A1C14855D000C77A1 /* textPaddingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textPaddingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9CA031E1C14855D000C77A1 /* textPaddingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textPaddingAppTests.swift; sourceTree = "<group>"; };
+		F9CA03201C14855D000C77A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9CA03251C14855D000C77A1 /* textPaddingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textPaddingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9CA03291C14855D000C77A1 /* textPaddingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textPaddingAppUITests.swift; sourceTree = "<group>"; };
+		F9CA032B1C14855D000C77A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9CA03031C14855D000C77A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9CA03171C14855D000C77A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9CA03221C14855D000C77A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9CA02FD1C14855D000C77A1 = {
+			isa = PBXGroup;
+			children = (
+				F9CA03081C14855D000C77A1 /* textPaddingApp */,
+				F9CA031D1C14855D000C77A1 /* textPaddingAppTests */,
+				F9CA03281C14855D000C77A1 /* textPaddingAppUITests */,
+				F9CA03071C14855D000C77A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9CA03071C14855D000C77A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9CA03061C14855D000C77A1 /* textPaddingApp.app */,
+				F9CA031A1C14855D000C77A1 /* textPaddingAppTests.xctest */,
+				F9CA03251C14855D000C77A1 /* textPaddingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9CA03081C14855D000C77A1 /* textPaddingApp */ = {
+			isa = PBXGroup;
+			children = (
+				F9CA03091C14855D000C77A1 /* AppDelegate.swift */,
+				F9CA030B1C14855D000C77A1 /* ViewController.swift */,
+				F9CA030D1C14855D000C77A1 /* Main.storyboard */,
+				F9CA03101C14855D000C77A1 /* Assets.xcassets */,
+				F9CA03121C14855D000C77A1 /* LaunchScreen.storyboard */,
+				F9CA03151C14855D000C77A1 /* Info.plist */,
+			);
+			path = textPaddingApp;
+			sourceTree = "<group>";
+		};
+		F9CA031D1C14855D000C77A1 /* textPaddingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9CA031E1C14855D000C77A1 /* textPaddingAppTests.swift */,
+				F9CA03201C14855D000C77A1 /* Info.plist */,
+			);
+			path = textPaddingAppTests;
+			sourceTree = "<group>";
+		};
+		F9CA03281C14855D000C77A1 /* textPaddingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9CA03291C14855D000C77A1 /* textPaddingAppUITests.swift */,
+				F9CA032B1C14855D000C77A1 /* Info.plist */,
+			);
+			path = textPaddingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9CA03051C14855D000C77A1 /* textPaddingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9CA032E1C14855D000C77A1 /* Build configuration list for PBXNativeTarget "textPaddingApp" */;
+			buildPhases = (
+				F9CA03021C14855D000C77A1 /* Sources */,
+				F9CA03031C14855D000C77A1 /* Frameworks */,
+				F9CA03041C14855D000C77A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = textPaddingApp;
+			productName = textPaddingApp;
+			productReference = F9CA03061C14855D000C77A1 /* textPaddingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9CA03191C14855D000C77A1 /* textPaddingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9CA03311C14855D000C77A1 /* Build configuration list for PBXNativeTarget "textPaddingAppTests" */;
+			buildPhases = (
+				F9CA03161C14855D000C77A1 /* Sources */,
+				F9CA03171C14855D000C77A1 /* Frameworks */,
+				F9CA03181C14855D000C77A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9CA031C1C14855D000C77A1 /* PBXTargetDependency */,
+			);
+			name = textPaddingAppTests;
+			productName = textPaddingAppTests;
+			productReference = F9CA031A1C14855D000C77A1 /* textPaddingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9CA03241C14855D000C77A1 /* textPaddingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9CA03341C14855D000C77A1 /* Build configuration list for PBXNativeTarget "textPaddingAppUITests" */;
+			buildPhases = (
+				F9CA03211C14855D000C77A1 /* Sources */,
+				F9CA03221C14855D000C77A1 /* Frameworks */,
+				F9CA03231C14855D000C77A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9CA03271C14855D000C77A1 /* PBXTargetDependency */,
+			);
+			name = textPaddingAppUITests;
+			productName = textPaddingAppUITests;
+			productReference = F9CA03251C14855D000C77A1 /* textPaddingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9CA02FE1C14855D000C77A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Takayasu Sakai";
+				TargetAttributes = {
+					F9CA03051C14855D000C77A1 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					F9CA03191C14855D000C77A1 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F9CA03051C14855D000C77A1;
+					};
+					F9CA03241C14855D000C77A1 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F9CA03051C14855D000C77A1;
+					};
+				};
+			};
+			buildConfigurationList = F9CA03011C14855D000C77A1 /* Build configuration list for PBXProject "textPaddingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9CA02FD1C14855D000C77A1;
+			productRefGroup = F9CA03071C14855D000C77A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9CA03051C14855D000C77A1 /* textPaddingApp */,
+				F9CA03191C14855D000C77A1 /* textPaddingAppTests */,
+				F9CA03241C14855D000C77A1 /* textPaddingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9CA03041C14855D000C77A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CA03141C14855D000C77A1 /* LaunchScreen.storyboard in Resources */,
+				F9CA03111C14855D000C77A1 /* Assets.xcassets in Resources */,
+				F9CA030F1C14855D000C77A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9CA03181C14855D000C77A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9CA03231C14855D000C77A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9CA03021C14855D000C77A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CA030C1C14855D000C77A1 /* ViewController.swift in Sources */,
+				F9CA030A1C14855D000C77A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9CA03161C14855D000C77A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CA031F1C14855D000C77A1 /* textPaddingAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9CA03211C14855D000C77A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CA032A1C14855D000C77A1 /* textPaddingAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9CA031C1C14855D000C77A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9CA03051C14855D000C77A1 /* textPaddingApp */;
+			targetProxy = F9CA031B1C14855D000C77A1 /* PBXContainerItemProxy */;
+		};
+		F9CA03271C14855D000C77A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9CA03051C14855D000C77A1 /* textPaddingApp */;
+			targetProxy = F9CA03261C14855D000C77A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9CA030D1C14855D000C77A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9CA030E1C14855D000C77A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9CA03121C14855D000C77A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9CA03131C14855D000C77A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9CA032C1C14855D000C77A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9CA032D1C14855D000C77A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9CA032F1C14855D000C77A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = textPaddingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tasakai.textPaddingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9CA03301C14855D000C77A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = textPaddingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tasakai.textPaddingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F9CA03321C14855D000C77A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = textPaddingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tasakai.textPaddingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/textPaddingApp.app/textPaddingApp";
+			};
+			name = Debug;
+		};
+		F9CA03331C14855D000C77A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = textPaddingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tasakai.textPaddingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/textPaddingApp.app/textPaddingApp";
+			};
+			name = Release;
+		};
+		F9CA03351C14855D000C77A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = textPaddingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tasakai.textPaddingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = textPaddingApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F9CA03361C14855D000C77A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = textPaddingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tasakai.textPaddingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = textPaddingApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9CA03011C14855D000C77A1 /* Build configuration list for PBXProject "textPaddingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9CA032C1C14855D000C77A1 /* Debug */,
+				F9CA032D1C14855D000C77A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9CA032E1C14855D000C77A1 /* Build configuration list for PBXNativeTarget "textPaddingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9CA032F1C14855D000C77A1 /* Debug */,
+				F9CA03301C14855D000C77A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9CA03311C14855D000C77A1 /* Build configuration list for PBXNativeTarget "textPaddingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9CA03321C14855D000C77A1 /* Debug */,
+				F9CA03331C14855D000C77A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9CA03341C14855D000C77A1 /* Build configuration list for PBXNativeTarget "textPaddingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9CA03351C14855D000C77A1 /* Debug */,
+				F9CA03361C14855D000C77A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9CA02FE1C14855D000C77A1 /* Project object */;
+}
