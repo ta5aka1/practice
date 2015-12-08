@@ -65,7 +65,7 @@ class WebPageViewController: UIViewController, WKNavigationDelegate{
         
         //goForwardBtn
         _goForwardBtn.enabled = false
-        _webView.addObserver(self, forKeyPath: "pressBtn:", options: NSKeyValueObservingOptions.New, context: nil)
+        _webView.addObserver(self, forKeyPath: "canGoForward", options: NSKeyValueObservingOptions.New, context: nil)
         _goForwardBtn.setImage(UIImage(named: "GoForward"), forState: .Normal)
         _goForwardBtn.addTarget(self, action: "pressBtn:", forControlEvents: .TouchUpInside)
         _baseMenuView.addSubview(_goForwardBtn)
@@ -104,7 +104,6 @@ class WebPageViewController: UIViewController, WKNavigationDelegate{
         
         // progressView
         _progressView.translatesAutoresizingMaskIntoConstraints = false
-//        var progressViewConstraints = [NSLayoutConstraint]()
         baseMenuViewConstraints.append(NSLayoutConstraint(item: _progressView, attribute: .Left, relatedBy: .Equal, toItem: _baseMenuView, attribute: .Left, multiplier: 1.0, constant: 0.0))
         baseMenuViewConstraints.append(NSLayoutConstraint(item: _progressView, attribute: .Right, relatedBy: .Equal, toItem: _baseMenuView, attribute: .Right, multiplier: 1.0, constant: 0.0))
         baseMenuViewConstraints.append(NSLayoutConstraint(item: _progressView, attribute: .Top, relatedBy: .Equal, toItem: _baseMenuView, attribute: .Top, multiplier: 1.0, constant: 0.0))
@@ -119,9 +118,9 @@ class WebPageViewController: UIViewController, WKNavigationDelegate{
         
         // reloadBtn
         _reloadBtn.translatesAutoresizingMaskIntoConstraints = false
-        var reloeadBtnConstraints = [NSLayoutConstraint]()
-        closeBtnConstraints.append(NSLayoutConstraint(item: _reloadBtn, attribute: .Height, relatedBy: .Equal, toItem: nil, attribute: .Height, multiplier: 1.0, constant: 40.0))
-        closeBtnConstraints.append(NSLayoutConstraint(item: _reloadBtn, attribute: .Width, relatedBy: .Equal, toItem: nil, attribute: .Width, multiplier: 1.0, constant: 24.0))
+        var reloadBtnConstraints = [NSLayoutConstraint]()
+        reloadBtnConstraints.append(NSLayoutConstraint(item: _reloadBtn, attribute: .Height, relatedBy: .Equal, toItem: nil, attribute: .Height, multiplier: 1.0, constant: 40.0))
+        reloadBtnConstraints.append(NSLayoutConstraint(item: _reloadBtn, attribute: .Width, relatedBy: .Equal, toItem: nil, attribute: .Width, multiplier: 1.0, constant: 24.0))
         baseMenuViewConstraints.append(NSLayoutConstraint(item: _reloadBtn, attribute: .CenterY, relatedBy: .Equal, toItem: _baseMenuView, attribute: .CenterY, multiplier: 1.0, constant: 0.0))
         baseMenuViewConstraints.append(NSLayoutConstraint(item: _reloadBtn, attribute: .Left, relatedBy: .Equal, toItem: _closeBtn, attribute: .Right, multiplier: 1.0, constant: 10.0))
         
@@ -149,11 +148,17 @@ class WebPageViewController: UIViewController, WKNavigationDelegate{
         viewConstraints.append(NSLayoutConstraint(item: _webView, attribute: .Right, relatedBy: .Equal, toItem: self.view, attribute: .Right, multiplier: 1.0, constant: 0.0))
         viewConstraints.append(NSLayoutConstraint(item: _webView, attribute: .Bottom, relatedBy: .Equal, toItem: _baseMenuView, attribute: .Top, multiplier: 1.0, constant: 0.0))
         
+        NSLog("start")
         _closeBtn.addConstraints(closeBtnConstraints)
-        _reloadBtn.addConstraints(reloeadBtnConstraints)
+        NSLog("close added")
+        _reloadBtn.addConstraints(reloadBtnConstraints)
+        NSLog("reload added")
         _goBackBtn.addConstraints(goBackBtnConstraints)
+        NSLog("goBack added")
         _goForwardBtn.addConstraints(goForwardBtnConstraints)
+        NSLog("goForward added")
         _baseMenuView.addConstraints(baseMenuViewConstraints)
+        NSLog("baseMenu added")
         self.view.addConstraints(viewConstraints)
     }
     
