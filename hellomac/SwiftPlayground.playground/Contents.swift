@@ -12,3 +12,9 @@ print( 1 == 2 )
 var bodyTemp:float_t = 36
 bodyTemp = 36.5
 
+var testScores = [
+    "国語":95,
+    "数学":70,
+    "英語":80]
+testScores["数学"] = 100
+print(testScores["数学"])
