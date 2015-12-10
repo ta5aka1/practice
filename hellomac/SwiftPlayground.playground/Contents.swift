@@ -18,3 +18,10 @@ var testScores = [
     "英語":80]
 testScores["数学"] = 100
 print(testScores["数学"])
+
+func sizeOfSquare(x:Int64) {
+    print("square size is", x * x, "cm2")
+    
+}
+
+sizeOfSquare(8)
