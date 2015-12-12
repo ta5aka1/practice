@@ -1,27 +1,15 @@
-//: Playground - noun: a place where people can play
-
-import UIKit
-
-var str = "Hello, playground"
-
-print("hello world")
-print("バッテリー残量が少なくなっています")
-print(1==1)
-print( 1 == 2 )
-
-var bodyTemp:float_t = 36
-bodyTemp = 36.5
-
-var testScores = [
-    "国語":95,
-    "数学":70,
-    "英語":80]
-testScores["数学"] = 100
-print(testScores["数学"])
-
-func sizeOfSquare(x:Int64) {
-    print("square size is", x * x, "cm2")
-    
+var odds = [Int]()
+for i in 1...10 {
+    if i % 2 == 1 {
+        odds.append(i)
+    }
 }
 
-sizeOfSquare(8)
+print(odds)
+
+
+func isOdd(number: Int) -> Bool{
+    return number % 2 == 1
+}
+var odds2 = Array(1...10).filter(isOdd)
+print(odds2)
