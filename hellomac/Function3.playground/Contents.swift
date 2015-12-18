@@ -3,31 +3,29 @@ let words = ["Cola", "Coffee", "orange juice", "Cider", "Pocari", "Tomato juice"
 
 typealias Entry = (Character, [String])
 
-func buildWordGroup(words: [String]) -> [Entry]{
-    var result = [Entry]()
-    
-    var letters = [Character]()
-    for word in words {
-        let firstLetter = Character(word.substringToIndex(word.startIndex.advancedBy(1)).uppercaseString)
-        
-        if !letters.contains(firstLetter) {
-            letters.append(firstLetter)
-        }
+func buildWordGroup(words : [String]) -> [Entry] {
+    func firstLetter(str: String) -> Character{
+        return Character(str.substringToIndex(str.startIndex.advancedBy(1)).uppercaseString)
     }
     
-    for letter in letters{
-        var wordsForLetter = [String]()
-        for word in words{
-            let firstLetter = Character(word.substringToIndex(word.startIndex.advancedBy(1)).uppercaseString)
-            
-            if firstLetter == letter{
-                wordsForLetter.append(word)
-            }
-        }
-        result.append((letter, wordsForLetter))
+    return distinct( words.map(firstLetter))
+        .map{
+            (letter) -> Entry in
+            return (letter, words.filter{
+                (word) -> Bool in
+                    firstLetter(word) == letter
+                })
     }
-    
-    return result
+}
+
+func distinct<T: Equatable>(source: [T]) -> [T]{
+    var unique = [T]()
+    for item in source{
+        if !unique.contains(item) {
+            unique.append(item)
+        }
+    }
+    return unique
 }
 
 print(buildWordGroup(words))
